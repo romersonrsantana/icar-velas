@@ -5,6 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criando um Rodapé</title>
+    <style>
+
+       
+        article{
+            margin: auto;
+            width: 600px;
+            height: 483px;
+            background-color: #7c9acf5e;
+            padding: 9px;
+        }
+
+        article > footer{
+            margin-top: 56%;
+            background-color: #255a9262;
+            padding: 12px;
+            margin-left: -9px;
+            margin-right: -9px;
+            font-size: 0.9em;
+            text-align: center;
+        }
+
+        article > footer:hover{
+            background-color: rgba(65, 105, 225, 0.356);
+            font-weight: bolder;
+            font-size: 1.1em;
+        
+        }
+
+        footer#footer-page{
+            text-align: center;
+            color: white;
+            font-weight: bolder;
+            font-size: 1.8em;
+            margin-left: -9px;
+            margin-right: -6px;
+            background-color: #2D73B9;
+            padding: 28px;
+        
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -17,6 +57,6 @@
         </p>
         <footer>Nesse exemplo o elemento <strong>&lt;footer&gt;</strong> representa o rodapé do elemento <strong>&lt;article&gt;</strong> estando alinhado dentro dele.</footer>
     </article>
-    <footer>Agora o elemento &lt;footer&gt; representa o rodapé da página.</footer>
+    <footer id="footer-page">Agora o elemento &lt;footer&gt; representa o rodapé da página.</footer>
 </body>
 </html>
